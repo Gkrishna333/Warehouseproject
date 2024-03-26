@@ -11,7 +11,7 @@ import org.springframework.web.multipart.MultipartFile;
 @Component
 public class MailUtil {
 
-	@Autowired
+	@Autowired(required = false)
 	private JavaMailSender mailSender;
 
 	/***

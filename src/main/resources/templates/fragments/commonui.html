@@ -10,9 +10,9 @@
 </head>
 <!--nav bar starts-->
 <div th:fragment="usermenu">
-	<center>
-		<img th:src="@{/imgs/logo.png}" width="1200px" height="180px"/>
-	</center>
+<!--	<center>-->
+<!--		<img th:src="@{/imgs/logo.png}" width="1200px" height="180px"/>-->
+<!--	</center>-->
 <nav  class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" th:href="@{/user/profile}"><span th:text="${session.currentUser.name}"></span></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
